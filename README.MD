@@ -14,7 +14,7 @@
 Para criar um novo projeto usando este template, execute o seguinte comando no seu terminal:
 
 ```shel
-npx create-react-app nome-do-projeto -e https://github.com/guilhiz/Typescript-template.git
+npx create-react-app nome-do-projeto -e https://github.com/guilhiz/typescript-template.git
 ```
 
 Se preferir você pode clonar este repositório e rodar os seguintes comandos dentro da pasta do projeto:
