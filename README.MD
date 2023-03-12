@@ -8,6 +8,8 @@
 - :pencil: Commitzen — Git commit message helper
 - :globe_with_meridians: Axios - HTTP client library for JavaScript.
 - :nail_care: Styled-components - CSS-in-JS library for styling React components.
+- :clipboard: React-hook-form - A lightweight library for building forms with React.
+- :lock: Zod - A TypeScript-first schema validation library for JSON, YAML, and GraphQL.
 
 ## :rocket: Como começar
 
