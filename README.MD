@@ -1,4 +1,4 @@
-<h1 align="center">Meu Template React com TypeScript</h1>
+<h1 align="center">My React Template with TypeScript</h1>
 
 
 ## :gear: Configs
@@ -11,24 +11,24 @@
 - :clipboard: React-hook-form - A lightweight library for building forms with React.
 - :lock: Zod - A TypeScript-first schema validation library for JSON, YAML, and GraphQL.
 
-## :rocket: Como começar
+## :rocket: Getting Started
 
-Para criar um novo projeto usando este template, execute o seguinte comando no seu terminal:
+To create a new project using this template, run the following command in your terminal:
 
 ```shel
-npx create-react-app nome-do-projeto -e https://github.com/guilhiz/typescript-template.git
+npx create-react-app project-name -e https://github.com/guilhiz/typescript-template.git
 ```
 
-Se preferir você pode clonar este repositório e rodar os seguintes comandos dentro da pasta do projeto:
-- Instale as dependências com `npm install`
-- Inicie o projeto com `npm start`
+If you prefer, you can clone this repository and run the following commands inside the project folder:
+- Install the dependencies with `npm install`
+- Start the project with `npm start`
 
-## :handshake: Como contribuir
+## :handshake: Contributing
 
-Se você quiser contribuir para este template, siga os seguintes passos:
+If you want to contribute to this template, follow these steps:
 
-- Faça um fork deste repositório
-- Crie uma nova branch com a sua feature (`git checkout -b minha-feature`)
-- Faça commit das suas alterações (`git commit -m 'Adicionando nova feature'`)
-- Faça push para a branch (`git push origin minha-feature`)
-- Abra um Pull Request
+- Fork this repository
+- Create a new branch with your feature (`git checkout -b my-feature`)
+- Commit your changes (`git commit -m 'Adding new feature'`)
+- Push to the branch (`git push origin my-feature`)
+- Open a Pull Request
