@@ -1,4 +1,4 @@
-<h1 align="center">My React Template with TypeScript</h1>
+<h1 align="center">My React Boilerplate with TypeScript</h1>
 
 
 ## :gear: Configs
@@ -6,22 +6,48 @@
 - :wrench: ESLint — Pluggable JavaScript linter
 - :art: Prettier — Opinionated Code Formatter
 - :pencil: Commitzen — Git commit message helper
-- :globe_with_meridians: Axios - HTTP client library for JavaScript.
-- :nail_care: Styled-components - CSS-in-JS library for styling React components.
-- :clipboard: React-hook-form - A lightweight library for building forms with React.
-- :lock: Zod - A TypeScript-first schema validation library for JSON, YAML, and GraphQL.
+- :globe_with_meridians: Axios — HTTP client library for JavaScript.
+- :nail_care: Styled-components — CSS-in-JS library for styling React components.
+- :clipboard: React-hook-form — A lightweight library for building forms with React.
+- :lock: Zod — A TypeScript-first schema validation library for JSON, YAML, and GraphQL.
 
 ## :rocket: Getting Started
 
-To create a new project using this template, run the following command in your terminal:
+To use this boilerplate, clone this repository with the following command in your terminal
 
 ```shel
-npx create-react-app project-name -e https://github.com/guilhiz/typescript-template.git
+git clone --depth=1 https://github.com/guilhiz/typescript-boilerplate.git <YOUR_PROJECT_NAME>
 ```
 
-If you prefer, you can clone this repository and run the following commands inside the project folder:
+After cloning the repository, run the following commands inside the project folder:
 - Install the dependencies with `npm install`
 - Start the project with `npm start`
+
+## :file_folder: Main File Structure
+
+```js
+├── 📁public  
+|   └── 📄Index.html // Entry point HTML file 
+|
+├── 📁src
+|   ├── 📁@types // Type definitions
+|   ├── 📁components // React components
+|   ├── 📁hooks // Custom hooks
+|   ├── 📁pages // Pages or screens
+|   ├── 📁service // API services
+|   ├── 📁styles  // Global styles
+|   ├── 📁theme // Theme files
+|   ├── 📁utils // Utility functions
+|   | 
+|   └── 📄index.js // Main entry file
+|
+├── 📄.eslintrc.json // ESLint configuration file
+├── 📄.prettierrc // Prettier configuration file
+├── 📄README.md // Project documentation
+├── 📄package.json // NPM package configuration file
+└── 📄tsconfig.json // TypeScript configuration file
+
+```
 
 ## :handshake: Contributing
 
