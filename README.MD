@@ -13,10 +13,14 @@
 
 ## :rocket: Getting Started
 
-To use this boilerplate, clone this repository with the following command in your terminal
+To use this boilerplate as a template for your own project, follow these steps:
+
+  - Click on the `Use this template` button on this repository page to create a new repository from this template.
+  - Choose a name and configure the new repository as desired.
+  - Clone the newly created repository to your local machine with the following command in your terminal:
 
 ```shel
-git clone --depth=1 https://github.com/guilhiz/typescript-boilerplate.git <YOUR_PROJECT_NAME>
+git clone https://github.com/<YOUR_USERNAME>/<YOUR_PROJECT_NAME>.git
 ```
 
 After cloning the repository, run the following commands inside the project folder:
@@ -54,7 +58,7 @@ After cloning the repository, run the following commands inside the project fold
 If you want to contribute to this template, follow these steps:
 
 - Fork this repository
-- Create a new branch with your feature (`git checkout -b my-feature`)
-- Commit your changes (`git commit -m 'Adding new feature'`)
-- Push to the branch (`git push origin my-feature`)
-- Open a Pull Request
+- Create a new branch with their feature using `git checkout -b my-feature`.
+- Commit their changes using `git commit -m 'Adding new feature'`.
+- Push the changes to their branch using `git push origin my-feature`.
+- Open a pull request on your repository.
