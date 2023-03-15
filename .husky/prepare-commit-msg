@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+COMMIT_MSG_FILE="$1"
+
+if [ -z "$(cat "$COMMIT_MSG_FILE")" ]
+then
+  exec < /dev/tty && npx cz --hook || true
+else
+  COMMIT_MESSAGE=$(cat "$COMMIT_MSG_FILE")
+  echo "$COMMIT_MESSAGE" | sed -e '1,/^#/d' | git commit --no-edit -F -
+fi
