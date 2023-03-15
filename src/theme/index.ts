@@ -4,7 +4,7 @@ export const defaultTheme = {
   headline: '#FFFFFF',
   paragraph: '#7F838D',
   secondary: '#202020',
-  input: '',
+  input: '#202020',
   card: '#202020',
-  button: ''
+  button: '#202020'
 };
