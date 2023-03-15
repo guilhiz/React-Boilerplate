@@ -41,8 +41,10 @@ After cloning the repository, run the following commands inside the project fold
 |   ├── 📁service // API services
 |   ├── 📁styles  // Global styles
 |   ├── 📁theme // Theme files
-|   ├── 📁utils // Utility functions
-|   | 
+|   ├── 📁utils // General utilities
+|   |   ├──📁constants // Global constants   
+|   |   └──📁functions // Utility functions
+|   |
 |   └── 📄index.js // Main entry file
 |
 ├── 📄.eslintrc.json // ESLint configuration file
