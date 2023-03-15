@@ -1,12 +1,10 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-COMMIT_MSG_FILE="$1"
-
-if [ -z "$(cat "$COMMIT_MSG_FILE")" ]
-then
-  exec < /dev/tty && npx cz --hook || true
-else
-  COMMIT_MESSAGE=$(cat "$COMMIT_MSG_FILE")
-  echo "$COMMIT_MESSAGE" | sed -e '1,/^#/d' | git commit --no-edit -F -
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+# Only run commitizen if no commit message was already provided.
+  if [ -z "${2-}" ]; then
+    export CZ_TYPE="${CZ_TYPE:-fix}"
+    export CZ_MAX_HEADER_WIDTH=$COMMITLINT_MAX_WIDTH
+    export CZ_MAX_LINE_WIDTH=$CZ_MAX_HEADER_WIDTH
+    # By default git hooks are not interactive. exec < /dev/tty allows a users terminal to interact with commitizen.
+    exec < /dev/tty && npx cz --hook || true
 fi
