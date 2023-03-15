@@ -35,7 +35,7 @@
       {
         "newlinesBetween": "always",
         "groups": [
-          "^react/",
+          "/react/",
           "module",
           "/^@shared/",
           "absolute",
