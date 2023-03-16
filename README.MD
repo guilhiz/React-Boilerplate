@@ -6,10 +6,12 @@
 - :wrench: ESLint — Pluggable JavaScript linter
 - :art: Prettier — Opinionated Code Formatter
 - :pencil: Commitzen — Git commit message helper
+- :dog: Husky — Use git hooks with ease
+- :no_entry_sign: Lint-staged - Run linters against staged git files
 - :globe_with_meridians: Axios — HTTP client library for JavaScript.
-- :nail_care: Styled-components — CSS-in-JS library for styling React components.
-- :clipboard: React-hook-form — A lightweight library for building forms with React.
-- :lock: Zod — A TypeScript-first schema validation library for JSON, YAML, and GraphQL.
+- :nail_care: Styled-components - library for styling React components.
+- :clipboard: React-hook-form - lightweight library for building forms.
+- :lock: Zod - TypeScript-first schema validation.
 
 ## :rocket: Getting Started
 
@@ -41,8 +43,10 @@ After cloning the repository, run the following commands inside the project fold
 |   ├── 📁service // API services
 |   ├── 📁styles  // Global styles
 |   ├── 📁theme // Theme files
-|   ├── 📁utils // Utility functions
-|   | 
+|   ├── 📁utils // General utilities
+|   |   ├──📁constants // Global constants   
+|   |   └──📁functions // Utility functions
+|   |
 |   └── 📄index.js // Main entry file
 |
 ├── 📄.eslintrc.json // ESLint configuration file
