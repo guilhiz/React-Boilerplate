@@ -50,8 +50,13 @@ table {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+button {
+    cursor: pointer;
+		border: none;
+  }
 a {
   text-decoration: none;
+	color: inherit;
 }
 `;
 
