@@ -13,7 +13,7 @@
 - :clipboard: React-hook-form - lightweight library for building forms.
 - :lock: Zod - TypeScript-first schema validation.
 
-## :rocket: Getting Started
+## :rocket: Getting Start
 
 To use this boilerplate as a template for your own project, follow these steps:
 
@@ -32,8 +32,8 @@ After cloning the repository, run the following commands inside the project fold
 ## :file_folder: Main File Structure
 
 ```js
-├── 📁public  
-|   └── 📄Index.html // Entry point HTML file 
+├── 📁public
+|   └── 📄Index.html // Entry point HTML file
 |
 ├── 📁src
 |   ├── 📁@types // Type definitions
@@ -44,7 +44,7 @@ After cloning the repository, run the following commands inside the project fold
 |   ├── 📁styles  // Global styles
 |   ├── 📁theme // Theme files
 |   ├── 📁utils // General utilities
-|   |   ├──📁constants // Global constants   
+|   |   ├──📁constants // Global constants
 |   |   └──📁functions // Utility functions
 |   |
 |   └── 📄index.js // Main entry file
