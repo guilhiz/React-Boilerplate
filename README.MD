@@ -2,12 +2,13 @@
 
 
 ## :gear: Configs
-
+- :rocket: Vite - A native ES modules development server and build tool.
 - :wrench: ESLint — Pluggable JavaScript linter
 - :art: Prettier — Opinionated Code Formatter
 - :pencil: Commitzen — Git commit message helper
 - :dog: Husky — Use git hooks with ease
 - :no_entry_sign: Lint-staged - Run linters against staged git files
+### Libs
 - :globe_with_meridians: Axios — HTTP client library for JavaScript.
 - :nail_care: Styled-components - library for styling React components.
 - :clipboard: React-hook-form - lightweight library for building forms.
@@ -32,9 +33,8 @@ After cloning the repository, run the following commands inside the project fold
 ## :file_folder: Main File Structure
 
 ```js
-├── 📁public  
-|   └── 📄Index.html // Entry point HTML file 
-|
+├── 📁.husky // Git hooks
+|   
 ├── 📁src
 |   ├── 📁@types // Type definitions
 |   ├── 📁components // React components
@@ -47,13 +47,15 @@ After cloning the repository, run the following commands inside the project fold
 |   |   ├──📁constants // Global constants   
 |   |   └──📁functions // Utility functions
 |   |
-|   └── 📄index.js // Main entry file
+|   └── 📄index.tsx // Main entry file
 |
 ├── 📄.eslintrc.json // ESLint configuration file
 ├── 📄.prettierrc // Prettier configuration file
+├── 📄Index.html // Entry point HTML file 
 ├── 📄README.md // Project documentation
 ├── 📄package.json // NPM package configuration file
-└── 📄tsconfig.json // TypeScript configuration file
+├── 📄tsconfig.json // TypeScript configuration file
+└── 📄vite.config.ts // Vite configuration file
 
 ```
 
