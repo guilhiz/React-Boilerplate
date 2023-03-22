@@ -13,7 +13,7 @@
 - :clipboard: React-hook-form - lightweight library for building forms.
 - :lock: Zod - TypeScript-first schema validation.
 
-## :rocket: Getting Start
+## :rocket: Getting Star
 
 To use this boilerplate as a template for your own project, follow these steps:
 
