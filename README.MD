@@ -2,17 +2,17 @@
 
 
 ## :gear: Configs
-- :rocket: Vite - A native ES modules development server and build tool.
-- :wrench: ESLint — Pluggable JavaScript linter
-- :art: Prettier — Opinionated Code Formatter
-- :pencil: Commitzen — Git commit message helper
-- :dog: Husky — Use git hooks with ease
-- :no_entry_sign: Lint-staged - Run linters against staged git files
+- :rocket: [Vite](https://vitejs.dev/) — A native ES modules development server and build tool.
+- :wrench: [ESLint](https://eslint.org/) — Pluggable JavaScript linter
+- :art: [Prettier](https://prettier.io/) — Opinionated Code Formatter
+- :pencil: [Commitzen](https://github.com/commitizen/cz-cli) — Git commit message helper
+- :dog: [Husky](https://typicode.github.io/husky/#/) — Use git hooks with ease
+- :no_entry_sign: [Lint-staged](https://github.com/okonet/lint-staged) — Run linters against staged git files
 ### Libs
-- :globe_with_meridians: Axios — HTTP client library for JavaScript.
-- :nail_care: Styled-components - library for styling React components.
-- :clipboard: React-hook-form - lightweight library for building forms.
-- :lock: Zod - TypeScript-first schema validation.
+- :globe_with_meridians: [Axios](https://axios-http.com/) — HTTP client library for JavaScript.
+- :nail_care: [Styled-components](https://styled-components.com/) — library for styling React components.
+- :clipboard: [React-hook-form](https://react-hook-form.com/) — lightweight library for building forms.
+- :lock: [Zod](https://zod.dev/) — TypeScript-first schema validation.
 
 ## :rocket: Getting Started
 
