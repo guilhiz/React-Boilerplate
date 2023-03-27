@@ -3,6 +3,7 @@
 
 ## :gear: Configs
 - :rocket: [Vite](https://vitejs.dev/) — A native ES modules development server and build tool.
+- :arrows_counterclockwise: [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file) — Automated dependency updates for GitHub repositories.
 - :wrench: [ESLint](https://eslint.org/) — Pluggable JavaScript linter
 - :art: [Prettier](https://prettier.io/) — Opinionated Code Formatter
 - :pencil: [Commitzen](https://github.com/commitizen/cz-cli) — Git commit message helper
@@ -32,7 +33,8 @@ After cloning the repository, run the following commands inside the project fold
 
 ## :file_folder: Main File Structure
 
-```js
+```ts
+├── 📁.github // GitHub workflows
 ├── 📁.husky // Git hooks
 |
 ├── 📁src
