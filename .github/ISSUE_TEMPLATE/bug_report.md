@@ -1,4 +1,13 @@
-## Description
+---
+name: Bug report
+about: Create a report to help us improve
+title: "[BUG] Brief summary of the bug found"
+labels: bug
+assignees: ''
+
+---
+
+## 📝 Description
 
 <!--
    Detail what the purpose of this issue is, what it aims to address.
@@ -7,7 +16,7 @@
 
 (Write here.)
 
-## Steps to Reproduce (if applicable)
+## 🚀 Steps to Reproduce
 
 <!--
    If the issue is related to a bug or error, include steps to reproduce the issue here.
@@ -16,7 +25,7 @@
 
 (Write here.)
 
-## Expected Behavior (if applicable)
+## 👀 Expected Behavior
 
 <!--
    If the issue is related to a bug or error, describe the expected behavior.
@@ -25,23 +34,23 @@
 
 (Write here.)
 
-## Actual Behavior (if applicable)
+## 🤔 Previous Attempts
 
 <!--
-   If the issue is related to a bug or error, describe the actual behavior.
-   Example: "The 'About Us' link is broken and directs users to a 404 page..."
+   If you have attempted to solve this issue before, describe what you have tried here.
+   Example: "I have tried clearing my browser cache and cookies, but the issue still persists."
 -->
 
 (Write here.)
 
-## Task List
+## ✅ Task List
 
 - [ ] Task to be done
 - [ ] Task to be done
 - [ ] Task to be done
 
-## Related Issues/PRs
+## 🔗 Related Issues/PRs
 
 > Example: Related to #1
 
-(Write here.) 
+(Write here.)
