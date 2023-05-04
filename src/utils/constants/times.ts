@@ -1,19 +1,11 @@
-export const ONE_SECOND_IN_MILLISECONDS = 1000;
-export const ONE_MINUTE_IN_SECONDS = 60;
-export const ONE_HOUR_IN_MINUTES = 60;
-export const ONE_DAY_IN_HOURS = 24;
+// Milliseconds
+export const MS_IN_SECOND = 1000;
+export const MS_IN_MINUTE = MS_IN_SECOND * 60;
+export const MS_IN_HOUR = MS_IN_MINUTE * 60;
+export const MS_IN_DAY = MS_IN_HOUR * 24;
+export const MS_IN_WEEK = MS_IN_DAY * 7;
 
-/**
- * i.e.: 1 day in milliseconds = 86.400.000
- */
-export const ONE_DAY_IN_MILLISECONDS =
-  ONE_SECOND_IN_MILLISECONDS * ONE_MINUTE_IN_SECONDS * ONE_HOUR_IN_MINUTES * ONE_DAY_IN_HOURS;
-
-export const ONE_HOUR_IN_MILLISECONDS = ONE_SECOND_IN_MILLISECONDS * ONE_MINUTE_IN_SECONDS * ONE_HOUR_IN_MINUTES;
-
-export const ONE_MINUTE_IN_MILLISECONDS = (ONE_SECOND_IN_MILLISECONDS / ONE_MINUTE_IN_SECONDS) % ONE_HOUR_IN_MINUTES;
-
-/**
- * i.e.: 12/31/2023
- */
-export const LAST_DAY_OF_YEAR = `12/31/${new Date().getFullYear()}`;
+// Seconds, Minutes, and Hours
+export const SEC_IN_MINUTE = 60;
+export const MIN_IN_HOUR = 60;
+export const HOUR_IN_DAY = 24;
